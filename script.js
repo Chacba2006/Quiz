@@ -53,6 +53,7 @@ $canvas.addEventListener("mousemove", (evento) => {
     if (!haComenzadoDibujo) {
         return;
     }
+    //
 
     xAnterior = xActual;
     yAnterior = yActual;
