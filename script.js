@@ -1,7 +1,6 @@
 const $canvas = document.querySelector("#canvas"),
     $btnDescargar = document.querySelector("#btnDescargar"),
     $btnLimpiar = document.querySelector("#btnLimpiar"),
-    $btnGenerarDocumento = document.querySelector("#btnGenerarDocumento");
 const contexto = $canvas.getContext("2d");
 const COLOR_PINCEL = "black";
 const COLOR_FONDO = "white";
@@ -34,8 +33,6 @@ window.obtenerImagen = () => {
     return $canvas.toDataURL();
 };
 
-$btnGenerarDocumento.onclick = () => {
-    window.open("documento.html");
 };
 // Lo demás tiene que ver con pintar sobre el canvas en los eventos del mouse
 $canvas.addEventListener("mousedown", evento => {
