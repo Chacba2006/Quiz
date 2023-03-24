@@ -53,7 +53,6 @@ $canvas.addEventListener("mousemove", (evento) => {
     if (!haComenzadoDibujo) {
         return;
     }
-    // El mouse se está moviendo y el usuario está presionando el botón, así que dibujamos todo
 
     xAnterior = xActual;
     yAnterior = yActual;
